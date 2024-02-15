@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/header_StyleSheet.uss?fileID=7433441132597879392&amp;guid=3e5d5a6407195f542a9c2e6fe81c7ccd&amp;type=3#header_StyleSheet" />
+    <ui:VisualElement name="header" class="header_StyleSheet" />
+    <ui:VisualElement name="body" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+        <ui:VisualElement name="item1" class="body_selector" style="background-color: rgba(219, 36, 36, 0.89); flex-direction: column;" />
+        <ui:VisualElement name="item2" class="body_selector" style="flex-grow: 1; background-color: rgba(219, 36, 36, 0.89);" />
+        <ui:VisualElement name="item3" class="body_selector" style="flex-grow: 1; background-color: rgba(219, 36, 36, 0.89);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="footer" class="header_StyleSheet" style="flex-grow: 1; background-color: rgba(14, 9, 9, 0.82);" />
+</ui:UXML>
